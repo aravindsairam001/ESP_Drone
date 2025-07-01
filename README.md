@@ -21,6 +21,7 @@ For more information, please check the sections below:
 
 ## 📂 Project Structure (Simplified)
 
+![Project Structure](Images/Project_Struct.png)
 
 ### Custom_SSID Integration
 
