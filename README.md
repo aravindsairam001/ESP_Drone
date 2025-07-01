@@ -19,10 +19,6 @@ For more information, please check the sections below:
 4. APP Control
 5. CFclient Supported
 
-## 📂 Project Structure (Simplified)
-
-![Project Structure](Images/Project_Struct.png)
-
 ### Custom_SSID Integration
 
 ## 🧠 How It Works
