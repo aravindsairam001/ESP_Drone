@@ -1,0 +1,6 @@
+{
+    "idf.flashType": "UART",
+    "idf.espIdfPath": "/Users/aravindsairams/esp/v4.4.4/esp-idf",
+    "idf.toolsPath": "/Users/aravindsairams/esp/v4.4.4/esp-idf/tools",
+    "idf.pythonInstallPath": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3"
+}
