@@ -25,24 +25,27 @@ For more information, please check the sections below:
 4. APP Control
 5. CFclient Supported
 
-Note: to implement Height-hold/Position-hold mode, extension boards are needed. For more information, see Hardware Reference. 
+## 📂 Project Structure (Simplified)
 
-### Third Party Copyrighted Code
 
-Additional third party copyrighted code is included under the following licenses.
+### Custom_SSID Integration
 
-| Component | License | Origin |Commit ID |
-| :---:  | :---: | :---: |:---: |
-| core/crazyflie | GPL3.0  |[Crazyflie](https://github.com/bitcraze/crazyflie-firmware) |tag_2021_01 b448553|
-| lib/dsp_lib |  | [esp32-lin](https://github.com/whyengineer/esp32-lin/tree/master/components/dsp_lib) |6fa39f4c|
+## 🧠 How It Works
 
-### Support Policy
+- On startup, `ssid_config_web_start()` is called.
+- It checks NVS for a saved SSID.
+- If found, it uses that; otherwise, it generates a unique fallback SSID like `ESP32-XXXXXX`.
+- A web portal is launched via `httpd` on the ESP32, accessible via a connected device.
+- User can enter a new SSID via a simple HTML form.
+- New SSID is saved to NVS and will be used on the next startup.
 
-From December 2022, we will offer limited support on this project, but Pull Request is still welcomed!
+---
 
-### THANKS
+## 🛠 Technologies Used
 
-1. Thanks to Bitcraze for the great [Crazyflie project](https://www.bitcraze.io/%20).
-2. Thanks to Espressif for the powerful [ESP-IDF framework](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/get-started/index.html).
-3. Thanks to WhyEngineer for the useful [ESP-DSP lib](https://github.com/whyengineer/esp32-lin/tree/master/components/dsp_lib).
+- **ESP-IDF v4.4.4**
+- **FreeRTOS**
+- **ESP-NVS**
+- **ESP HTTP Server**
+- **C language**
 
