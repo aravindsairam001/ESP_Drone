@@ -1,4 +1,4 @@
-# Install script for directory: /Users/aravindsairams/esp-idf/components/soc
+# Install script for directory: /Users/aravindsairams/esp/v4.4.4/esp-idf/components/soc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

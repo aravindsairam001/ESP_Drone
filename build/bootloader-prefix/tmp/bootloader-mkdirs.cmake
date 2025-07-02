@@ -4,7 +4,7 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/Users/aravindsairams/esp-idf/components/bootloader/subproject"
+  "/Users/aravindsairams/esp/v4.4.4/esp-idf/components/bootloader/subproject"
   "/Users/aravindsairams/Documents/ESP-Drone/Firmware/esp-drone/build/bootloader"
   "/Users/aravindsairams/Documents/ESP-Drone/Firmware/esp-drone/build/bootloader-prefix"
   "/Users/aravindsairams/Documents/ESP-Drone/Firmware/esp-drone/build/bootloader-prefix/tmp"
